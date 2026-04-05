@@ -55,3 +55,10 @@ For each turn:
 - `Recommended answer:` concise recommendation
 - `Why:` short reason tied to audit capsule/codebase fact
 - `Status:` `open` or `resolved`
+
+## Finally resolved output
+
+When all critical decisions are resolved, output a final summary:
+- `Final design summary:` concise overview of the final design
+- `Remaining risks:` list any unresolved risks or assumptions
+- Store final output in: `$(pwd)/.agents/tasks/qa-ideas.md`
